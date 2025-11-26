@@ -10,7 +10,7 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "1.Red"
+          "Value": "1.RED"
         }
       ]
     },
@@ -24,7 +24,7 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "2.Yellow"
+          "Value": "2.YELLOW"
         }
       ]
     },
@@ -38,7 +38,7 @@
         {
           "SchemaColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
           "ColumnName": "Name",
-          "Value": "3.Green"
+          "Value": "3.GREEN"
         }
       ]
     }
