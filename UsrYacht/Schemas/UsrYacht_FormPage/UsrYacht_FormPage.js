@@ -154,6 +154,29 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "TicketPrice",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrTicketPrice_l91oxek",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrTicketPrice_l91oxek",
+					"visible": false,
+					"readonly": true,
+					"placeholder": "",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
 				"name": "DriveType",
 				"values": {
 					"layoutConfig": {
@@ -273,7 +296,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "Comment",
+				"name": "EmailInput_dzibkdw",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -281,11 +304,16 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.Input",
-					"label": "$Resources.Strings.PDS_UsrComment_mjrn52t",
+					"type": "crt.EmailInput",
+					"label": "#ResourceString(EmailInput_dzibkdw_label)#",
+					"control": "$PDS_UsrManagerEmail_eg3zc08",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrComment_mjrn52t",
-					"multiline": false
+					"placeholder": "",
+					"tooltip": "",
+					"needHandleSave": false,
+					"caption": "#ResourceString(EmailInput_dzibkdw_caption)#",
+					"readonly": true,
+					"visible": true
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -344,6 +372,26 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "Comment",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrComment_mjrn52t",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrComment_mjrn52t",
+					"multiline": false
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 8
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -412,6 +460,16 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"modelConfig": {
 							"path": "PDS.UsrCity"
 						}
+					},
+					"PDS_UsrTicketPrice_l91oxek": {
+						"modelConfig": {
+							"path": "PDS.UsrTicketPrice"
+						}
+					},
+					"PDS_UsrManagerEmail_eg3zc08": {
+						"modelConfig": {
+							"path": "PDS.UsrManagerEmail_eg3zc08"
+						}
 					}
 				}
 			},
@@ -444,7 +502,13 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "UsrYacht"
+							"entitySchemaName": "UsrYacht",
+							"attributes": {
+								"UsrManagerEmail_eg3zc08": {
+									"path": "UsrManager.Email",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					}
@@ -464,6 +528,25 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
                /* Call the next handler if it exists and return its result. */
                return next?.handle(request);
                }
+				
+
+			},
+			{
+
+				request: "crt.HandleViewModelAttributeChangeRequest",
+                /* The custom implementation of the system query handler. */
+                 handler: async (request, next) => {
+                if (request.attributeName === 'PDS_UsrPrice_s6b8f31' || 		        // if price changed
+                request.attributeName === 'PDS_UsrPassengersCount_dzq2xx8' ) { 		// or Passengers count changed
+                let price = await request.$context.PDS_UsrPrice_s6b8f31;
+                let passengers = await request.$context.PDS_UsrPassengersCount_dzq2xx8;
+                let ticket_price = price / passengers;
+                 request.$context.PDS_UsrTicketPrice_l91oxek = ticket_price;
+                   }
+                /* Call the next handler if it exists and return its result. */
+                   return next?.handle(request);
+
+				}
 
 			},
 			{
