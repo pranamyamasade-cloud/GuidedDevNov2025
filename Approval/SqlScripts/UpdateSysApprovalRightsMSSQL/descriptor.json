@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "9f5ff4d3-3b8c-a7a7-c1df-5cbfd3ccbc3e",
+    "Name": "UpdateSysApprovalRightsMSSQL",
+    "DBEngineType": 0,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1672841599000)\/",
+    "BackwardCompatibilityConfirmed": true,
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pl-PL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Zatwierdzenie" />
+			<Item Name="Columns.Comment.Caption" Value="Komentarz" />
+			<Item Name="Columns.EntityId.Caption" Value="Identyfikator encji" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Nazwa schematu odniesienia" />
+			<Item Name="EventsProcessSchema.Caption" Value="Wiza ogólna" />
+		</Items>
+	</Group>
+</Resources>

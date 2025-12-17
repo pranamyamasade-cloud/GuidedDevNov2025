@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="cs-CZ">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Schválení" />
+			<Item Name="Columns.Comment.Caption" Value="Komentář" />
+			<Item Name="Columns.EntityId.Caption" Value="Identifikátor entity" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Reference schema name" />
+			<Item Name="EventsProcessSchema.Caption" Value="Common visa" />
+		</Items>
+	</Group>
+</Resources>

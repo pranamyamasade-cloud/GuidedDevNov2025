@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="vi-VN">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Chấp thuận" />
+			<Item Name="Columns.Comment.Caption" Value="Hoãn" />
+			<Item Name="Columns.EntityId.Caption" Value="Định danh thực thể" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Reference schema name" />
+			<Item Name="EventsProcessSchema.Caption" Value="Common visa" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="sq-AL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Miratimi" />
+			<Item Name="Columns.Comment.Caption" Value="Komenti" />
+			<Item Name="Columns.EntityId.Caption" Value="Identifikues subjekti" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Emri i skemës referuese" />
+			<Item Name="EventsProcessSchema.Caption" Value="Vizë e zakonshme" />
+		</Items>
+	</Group>
+</Resources>

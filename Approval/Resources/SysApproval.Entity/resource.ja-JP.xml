@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ja-JP">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Common visa" />
+			<Item Name="Columns.Comment.Caption" Value="コメント" />
+			<Item Name="Columns.EntityId.Caption" Value="エンティティ識別子" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="参照スキーマ名" />
+			<Item Name="EventsProcessSchema.Caption" Value="一般的なビザ" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,121 @@
+= MetaData.Schema.UId "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["f4f7ebb8-b4df-4f23-a6e4-ca0861a3a9bc"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["f4f7ebb8-b4df-4f23-a6e4-ca0861a3a9bc"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["01485a91-c5e4-c88e-da39-6ad0324574e9"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["01485a91-c5e4-c88e-da39-6ad0324574e9"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["c950747f-ac1f-451e-8a59-7d648a7b1ba6"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["c950747f-ac1f-451e-8a59-7d648a7b1ba6"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["5eb7ab1e-7c57-43bb-b016-8a033ba3bdd0"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["5eb7ab1e-7c57-43bb-b016-8a033ba3bdd0"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["843fdb9e-31be-4020-9e64-c28f27504b71"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["843fdb9e-31be-4020-9e64-c28f27504b71"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
++ MetaData.Schema.B2 {
+  "UId": "3c55d0e2-e0a7-4c96-82f8-028d821b093b",
+  "A2": "EmailTitleCaption",
+  "A3": "003e08f2-b98a-406d-88f0-64ad40e63851",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+  "A5": "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+}
+= MetaData.Schema.B2.["c53a215b-415e-4075-a3a1-7941dd513a96"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["c53a215b-415e-4075-a3a1-7941dd513a96"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
++ MetaData.Schema.B2 {
+  "UId": "619d1512-d768-8cfc-6de9-f1dbcde3e686",
+  "A2": "NoContactForChatMessage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+  "A5": "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+}
++ MetaData.Schema.B2 {
+  "UId": "9e6d8be8-09d5-263b-1d29-d9832a870a2c",
+  "A2": "NoContactsForChatMessage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+  "A5": "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+}
++ MetaData.Schema.B2 {
+  "UId": "3118c8e9-f5db-5b2a-7d2c-f337be1092d1",
+  "A2": "PlaybookButtonCaption",
+  "A3": "7ed37dfa-f9b1-4385-8918-683ea1d537a2",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+  "A5": "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+}
++ MetaData.Schema.B2 {
+  "UId": "21690efd-9ed5-8c9f-bdb5-a3cae961b325",
+  "A2": "SendToChatContactErrorMessage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+  "A5": "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+}
+= MetaData.Schema.B2.["3e608f70-39e2-4c90-b0c8-110c6095910f"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["3e608f70-39e2-4c90-b0c8-110c6095910f"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+= MetaData.Schema.B2.["fd74eb91-3ca4-42b1-a9eb-61c8a78d147c"].A4 "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+= MetaData.Schema.B2.["fd74eb91-3ca4-42b1-a9eb-61c8a78d147c"].A5 "8f8504d6-9b6c-4892-b2f1-4274326eacf6"
+~ MetaData.Schema.B2 ["f4f7ebb8-b4df-4f23-a6e4-ca0861a3a9bc","01485a91-c5e4-c88e-da39-6ad0324574e9","c950747f-ac1f-451e-8a59-7d648a7b1ba6","5eb7ab1e-7c57-43bb-b016-8a033ba3bdd0","843fdb9e-31be-4020-9e64-c28f27504b71","3c55d0e2-e0a7-4c96-82f8-028d821b093b","c53a215b-415e-4075-a3a1-7941dd513a96","619d1512-d768-8cfc-6de9-f1dbcde3e686","9e6d8be8-09d5-263b-1d29-d9832a870a2c","3118c8e9-f5db-5b2a-7d2c-f337be1092d1","21690efd-9ed5-8c9f-bdb5-a3cae961b325","3e608f70-39e2-4c90-b0c8-110c6095910f","fd74eb91-3ca4-42b1-a9eb-61c8a78d147c"]
+= MetaData.Schema.B6 "1eefea8c-efe3-53d9-6397-3aac9cc9e785"
+= MetaData.Schema.B7 true
+= MetaData.Schema.B8 "0.0.0.0"
+= MetaData.Schema.HD1 "d2bb0841-0efc-4750-92b4-9dca1072e886"
++ MetaData.Schema.HD8 {
+  "UId": "c9007d38-a06e-43cf-b64c-3d441a4b4c74",
+  "A2": "CallMessageTabImage",
+  "A3": "16e67433-7b26-4172-b98d-62da5b24658b",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "2a8cdb68-5be6-49e0-815a-642d50e9115d",
+  "A2": "CallTabImage",
+  "A3": "d2bb0841-0efc-4750-92b4-9dca1072e886",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "d433f9c9-3807-41ac-b658-8dd36cd071e7",
+  "A2": "EmailMessageTabImage",
+  "A3": "003e08f2-b98a-406d-88f0-64ad40e63851",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "5b2d93b0-2649-4c51-97d8-2c64afbcac72",
+  "A2": "EmailTabImage",
+  "A3": "d2bb0841-0efc-4750-92b4-9dca1072e886",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "fbdfb882-dfec-e3df-7f17-a308fb4ab14c",
+  "A2": "FacebookMessageTabImage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "88e9098a-a48c-a3af-894f-6a5728392ab3",
+  "A2": "PlaybookImage",
+  "A3": "7ed37dfa-f9b1-4385-8918-683ea1d537a2",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "9f28b901-9f14-4a63-a1c0-35ad9a48ab9a",
+  "A2": "SocialMessageTabImage",
+  "A3": "d7792425-6013-425b-a611-da731c32fa22",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "213c72b7-1419-4898-ac95-dbc5299c1568",
+  "A2": "TaskMessageTabImage",
+  "A3": "c70c0775-36ed-446d-9977-d58db7c627f3",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "286c8de4-5a52-46b6-86fd-6ab24ce54596",
+  "A2": "TelegramMessageTabImage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
++ MetaData.Schema.HD8 {
+  "UId": "37e31a80-762c-d32c-b6c8-fddd11998172",
+  "A2": "WhatsAppMessageTabImage",
+  "A3": "487a347b-208c-4dc3-a274-146b1bcafa3f",
+  "A4": "a400f402-4404-48c9-a5e5-6d45dd47ac59"
+}
+~ MetaData.Schema.HD8 ["ba5c8940-49f4-4366-ab14-e0d102529c36","6dff4616-e7ab-4dae-92aa-86d927443b46","81c8d085-d86e-4ba0-816f-6a2e51420ce8","d80708ca-89c4-4ab1-8ded-0b42cc5e238d","c9007d38-a06e-43cf-b64c-3d441a4b4c74","2a8cdb68-5be6-49e0-815a-642d50e9115d","d433f9c9-3807-41ac-b658-8dd36cd071e7","5b2d93b0-2649-4c51-97d8-2c64afbcac72","fbdfb882-dfec-e3df-7f17-a308fb4ab14c","88e9098a-a48c-a3af-894f-6a5728392ab3","9f28b901-9f14-4a63-a1c0-35ad9a48ab9a","213c72b7-1419-4898-ac95-dbc5299c1568","286c8de4-5a52-46b6-86fd-6ab24ce54596","37e31a80-762c-d32c-b6c8-fddd11998172"]
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 true

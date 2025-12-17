@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="승인" />
+			<Item Name="Columns.Comment.Caption" Value="Comment" />
+			<Item Name="Columns.EntityId.Caption" Value="엔티티 식별자" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Reference schema name" />
+			<Item Name="EventsProcessSchema.Caption" Value="Common visa" />
+		</Items>
+	</Group>
+</Resources>

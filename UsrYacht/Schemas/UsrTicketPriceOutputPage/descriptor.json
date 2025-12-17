@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "c980abf9-5a15-4614-b8d9-7746129db3bc",
+    "Name": "UsrTicketPriceOutputPage",
+    "ModifiedOnUtc": "\/Date(1765437200000)\/",
+    "Parent": {
+      "UId": "27e1b215-163a-4b82-b0a6-9872a8dde6e4",
+      "Name": "PageWithTopAreaAndTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Ticket price output page"
+  }
+}

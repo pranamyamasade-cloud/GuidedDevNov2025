@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ro-RO">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Aprobare" />
+			<Item Name="Columns.Comment.Caption" Value="Comentariu" />
+			<Item Name="Columns.EntityId.Caption" Value="Identificator entitate" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Numele schemei de referință" />
+			<Item Name="EventsProcessSchema.Caption" Value="Viza comună" />
+		</Items>
+	</Group>
+</Resources>

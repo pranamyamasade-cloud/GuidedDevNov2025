@@ -1,0 +1,26 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "01b4d3fa-c377-414d-b3c4-8dfd442f757b"
+        },
+        {
+          "SchemaColumnUId": "631177f9-f983-4787-a7aa-ced1b24ba918",
+          "Value": "714652dc-f6e3-4fe1-aab8-6886bcb97d66",
+          "DisplayValue": "SysApprovalStorage"
+        },
+        {
+          "SchemaColumnUId": "82b72e0d-42a3-4857-8445-0279b66e7e2c",
+          "Value": 1
+        },
+        {
+          "SchemaColumnUId": "9ba728be-e5cd-451d-a74a-c4a047c374b3",
+          "Value": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+          "DisplayValue": "All employees"
+        }
+      ]
+    }
+  ]
+}

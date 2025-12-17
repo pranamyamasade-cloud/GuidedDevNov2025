@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "7c55da3a-ac8f-811a-c15e-48ef5c402b31",
+    "Name": "UpdateSysApprovalRightsOracle",
+    "DBEngineType": 1,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1672841714000)\/",
+    "BackwardCompatibilityConfirmed": true,
+    "DependsOn": []
+  }
+}

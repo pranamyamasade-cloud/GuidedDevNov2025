@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="zh-TW">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="批准" />
+			<Item Name="Columns.Comment.Caption" Value="評論" />
+			<Item Name="Columns.EntityId.Caption" Value="個體識別符" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Reference schema name" />
+			<Item Name="EventsProcessSchema.Caption" Value="普通簽證" />
+		</Items>
+	</Group>
+</Resources>

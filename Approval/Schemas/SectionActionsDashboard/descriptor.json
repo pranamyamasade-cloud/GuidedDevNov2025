@@ -1,0 +1,15 @@
+﻿{
+  "Descriptor": {
+    "UId": "a400f402-4404-48c9-a5e5-6d45dd47ac59",
+    "Name": "SectionActionsDashboard",
+    "ModifiedOnUtc": "\/Date(1665147740000)\/",
+    "Parent": {
+      "UId": "d2bb0841-0efc-4750-92b4-9dca1072e886",
+      "Name": "SectionActionsDashboard"
+    },
+    "ExtendParent": true,
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "SectionActionsDashboard",
+    "DependsOn": []
+  }
+}

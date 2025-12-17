@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="lv-LV">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Apstiprinājums" />
+			<Item Name="Columns.Comment.Caption" Value="Komentārs" />
+			<Item Name="Columns.EntityId.Caption" Value="Entītijas identifikators" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Atsauces shēmas nosaukums" />
+			<Item Name="EventsProcessSchema.Caption" Value="Kopējā vīza" />
+		</Items>
+	</Group>
+</Resources>

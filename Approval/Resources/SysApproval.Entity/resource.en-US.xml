@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Approval" />
+			<Item Name="Columns.Comment.Caption" Value="Comment" />
+			<Item Name="Columns.EntityId.Caption" Value="Entity identifier" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Reference schema name" />
+			<Item Name="EventsProcessSchema.Caption" Value="Common visa" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_a7504fbde1f345efaa3f677a1eea3eb7.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_a7504fbde1f345efaa3f677a1eea3eb7.Lanes.Lane_6ce26ced0b5b44ae8b8cf9bfe38761eb.Caption" Value="Lane 1" />
+		</Items>
+	</Group>
+</Resources>

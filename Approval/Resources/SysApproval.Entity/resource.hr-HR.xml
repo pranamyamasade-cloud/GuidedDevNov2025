@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hr-HR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Odobrenje" />
+			<Item Name="Columns.Comment.Caption" Value="Komentar" />
+			<Item Name="Columns.EntityId.Caption" Value="Identifikator entiteta" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Naziv sheme referenci" />
+			<Item Name="EventsProcessSchema.Caption" Value="Zajednička viza" />
+		</Items>
+	</Group>
+</Resources>

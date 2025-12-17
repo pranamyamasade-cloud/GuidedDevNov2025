@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ar-SA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="اتفاقية" />
+			<Item Name="Columns.Comment.Caption" Value="تعليق" />
+			<Item Name="Columns.EntityId.Caption" Value="مُعرّف الكيان" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="اسم المخطط المرجعي" />
+			<Item Name="EventsProcessSchema.Caption" Value="التأشيرة العادية" />
+		</Items>
+	</Group>
+</Resources>

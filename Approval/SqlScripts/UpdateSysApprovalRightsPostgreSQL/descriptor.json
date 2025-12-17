@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "e29277e8-5849-9a61-aebe-13067b09b9c7",
+    "Name": "UpdateSysApprovalRightsPostgreSQL",
+    "DBEngineType": 2,
+    "InstallType": 1,
+    "ModifiedOnUtc": "\/Date(1672841899000)\/",
+    "BackwardCompatibilityConfirmed": true,
+    "DependsOn": []
+  }
+}

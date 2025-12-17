@@ -1,4 +1,4 @@
-define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -71,6 +71,80 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
+				"name": "Button_cii7pgp",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_cii7pgp_caption)#",
+					"color": "outline",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunCalcTicketPriceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunCalcTicketPriceMenuItem_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAverageTicketPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "YachtIdParameter"
+						}
+					},
+					"icon": "pen-icon"
+				},
+				"parentName": "Button_cii7pgp",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunMaxPriceWebServiceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunMaxPriceWebServiceMenuItem_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceRequest"
+					},
+					"icon": "calculator-icon"
+				},
+				"parentName": "Button_cii7pgp",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "CalculateAvgPrice",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(CalculateAvgPrice_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "usr.AvgRunWebServiceRequest"
+					},
+					"icon": "sum-icon"
+				},
+				"parentName": "Button_cii7pgp",
+				"propertyName": "menuItems",
+				"index": 2
+			},
+			{
+				"operation": "insert",
 				"name": "PushMeButton",
 				"values": {
 					"type": "crt.Button",
@@ -88,7 +162,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -277,7 +351,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "CrewCount",
+				"name": "Length",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -286,9 +360,9 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_UsrCrewCount_rtrdx40",
+					"label": "$Resources.Strings.PDS_UsrLength_jm7dqt1",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrCrewCount_rtrdx40"
+					"control": "$PDS_UsrLength_jm7dqt1"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -321,7 +395,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "Country",
+				"name": "CrewCount",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -329,18 +403,10 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"colSpan": 1,
 						"rowSpan": 1
 					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrCountry_i11ue98",
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrCrewCount_rtrdx40",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrCountry_i11ue98",
-					"listActions": [],
-					"showValueAsLink": true,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"tooltip": "",
-					"valueDetails": null
+					"control": "$PDS_UsrCrewCount_rtrdx40"
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -368,7 +434,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "City",
+				"name": "Country",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
@@ -377,9 +443,9 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrCity_kbfwneb",
+					"label": "$Resources.Strings.PDS_UsrCountry_i11ue98",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrCity_kbfwneb",
+					"control": "$PDS_UsrCountry_i11ue98",
 					"listActions": [],
 					"showValueAsLink": true,
 					"controlActions": [],
@@ -419,11 +485,82 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 			},
 			{
 				"operation": "insert",
-				"name": "MultiSelectCategory",
+				"name": "City",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"row": 6,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCity_kbfwneb",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrCity_kbfwneb",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 10
+			},
+			{
+				"operation": "insert",
+				"name": "Captain",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 6,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCaptain_ay867u1",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrCaptain_ay867u1",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 11
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_y4lzvnj",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_y4lzvnj_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "Captain",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MultiSelectCategory",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 7,
 						"colSpan": 2,
 						"rowSpan": 1
 					},
@@ -440,7 +577,35 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 10
+				"index": 12
+			},
+			{
+				"operation": "insert",
+				"name": "Button_9z1r9yj",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_9z1r9yj_caption)#",
+					"color": "outline",
+					"disabled": false,
+					"size": "large",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrYachtAddRentals",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "YachtId"
+						}
+					},
+					"clickMode": "default",
+					"icon": "open-button-icon"
+				},
+				"parentName": "GeneralInfoTab",
+				"propertyName": "items",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -468,7 +633,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				},
 				"parentName": "GeneralInfoTab",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
@@ -760,7 +925,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 50,
+									"minValue": 300,
 									"message": "#ResourceString(PriceCannotBeLess)#"
 								}
 							}
@@ -904,6 +1069,16 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 					},
 					"GridDetail_qxr0tmk_PredefinedFilter": {
 						"value": null
+					},
+					"PDS_UsrLength_jm7dqt1": {
+						"modelConfig": {
+							"path": "PDS.UsrLength"
+						}
+					},
+					"PDS_UsrCaptain_ay867u1": {
+						"modelConfig": {
+							"path": "PDS.UsrCaptain"
+						}
 					}
 				}
 			},
@@ -1015,33 +1190,102 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEM
 				}
 
 			},
-			{
-    request: "crt.HandleViewModelAttributeChangeRequest",
-    handler: async (request, next) => {
-
-        if (request.attributeName === "PDS_UsrPrice_s6b8f31") {
-
-            // Direct number value from NumberInput
-            const priceValue = await request.$context.PDS_UsrPrice_s6b8f31;
-
-            const isPriceGreaterThan1000 = Number(priceValue) > 1000;
-
-            if (isPriceGreaterThan1000) {
-                request.$context.enableAttributeValidator(
-                    "PDS_UsrComment_mjrn52t",
-                    "required"
-                );
-            } else {
-                request.$context.disableAttributeValidator(
-                    "PDS_UsrComment_mjrn52t",
-                    "required"
-                );
+		{
+             /* The custom implementation of comment required when price is greater than system setting value request handler. */
+            request: "crt.HandleViewModelAttributeChangeRequest",
+            handler: async (request, next) => {
+            /* Check the request status. */
+            if (request.attributeName === 'PDS_UsrPrice_s6b8f31') {
+                price = await request.$context.PDS_UsrPrice_s6b8f31;
+                const sysSettingsService = new sdk.SysSettingsService();
+                const SystemSetting = await sysSettingsService.getByCode('MinPriceToRequireYachtComment');
+                    const sysvalue=SystemSetting.value;
+                console.log("price"+ price);                console.log("sysvalue "+ sysvalue);
+                /* Check the request description. */
+                if (price >= sysvalue) {
+                    /* If the request status is "New," apply the validator to the "UsrDescription" attribute. */
+                    request.$context.enableAttributeValidator('PDS_UsrComment_mjrn52t', 'required');
+                    } 
+                else {
+                    /* If the request status differs from the "New," do not apply the validator to the "UsrDescription" attribute. */
+                    request.$context.disableAttributeValidator('PDS_UsrComment_mjrn52t', 'required');
+                     }
+                }
+            /* Call the next handler if it exists and return its result. */
+            return next?.handle(request);
             }
-        }
+        },
+			
+			{
+               request: "usr.RunWebServiceRequest",
+               /* Implementation of the custom query handler. */
+               handler: async (request, next) => {
+               console.log("Run web service button works...");
 
-        return next?.handle(request);
-    }
-}
+               // get id from drive type lookup type object
+               var typeObject = await request.$context.PDS_UsrDriveType_ov4xr4y;
+               var driveTypeId = "";
+               if (typeObject) {
+               driveTypeId = typeObject.value;
+                         }
+               /* Create an instance of the HTTP client from @creatio-devkit/common. */
+              const httpClientService = new sdk.HttpClientService();
+				   
+              /* Specify the URL to run web service method. */
+              const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+              const transferName = "rest";
+              const serviceName = "MaxYachtService";
+              const methodName = "GetMaxPriceByDriveTypeId";
+              const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+				   
+              //const endpoint = "http://localhost/D1_Studio/0/rest/MaxYachtService/GetMaxPriceByDriveTypeId";
+             /* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+             var params = {
+             driveTypeId: driveTypeId
+                    	};
+             const response = await httpClientService.post(endpoint, params);
+    		console.log("response max price = " + response.body.GetMaxPriceByDriveTypeIdResult);
+		   /* Call the next handler if it exists and return its result. */
+            return next?.handle(request);
+
+				}
+
+			},
+				{
+               request: "usr.AvgRunWebServiceRequest",
+               /* Implementation of the custom query handler. */
+               handler: async (request, next) => {
+               console.log("Run web service button works...");
+
+               // get id from drive type lookup type object
+               var typeObject = await request.$context.PDS_UsrDriveType_ov4xr4y;
+               var driveTypeId = "";
+               if (typeObject) {
+               driveTypeId = typeObject.value;
+                         }
+               /* Create an instance of the HTTP client from @creatio-devkit/common. */
+              const httpClientService = new sdk.HttpClientService();
+				   
+              /* Specify the URL to run web service method. */
+              const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+              const transferName = "rest";
+              const serviceName = "AvgYachtService";
+              const methodName = "GetAvgPriceByDriveTypeId";
+              const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+				   
+              //const endpoint = "http://localhost/D1_Studio/0/rest/AvgYachtService/GetPriceByDriveTypeId";
+             /* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+             var params = {
+             driveTypeId: driveTypeId
+                    	};
+             const response = await httpClientService.post(endpoint, params);
+    		console.log("response avg price = " + response.body.GetAvgPriceByDriveTypeIdResult);
+		   /* Call the next handler if it exists and return its result. */
+            return next?.handle(request);
+
+				}
+
+			}
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{

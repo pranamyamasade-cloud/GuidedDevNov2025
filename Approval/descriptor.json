@@ -1,0 +1,27 @@
+﻿{
+  "Descriptor": {
+    "UId": "1eefea8c-efe3-53d9-6397-3aac9cc9e785",
+    "PackageVersion": "7.8.0",
+    "Name": "Approval",
+    "ModifiedOnUtc": "\/Date(1732030531000)\/",
+    "Maintainer": "Customer",
+    "Description": "#OriginalMaintainer:Creatio",
+    "DependsOn": [
+      {
+        "UId": "29996b0e-2b19-27a8-dab4-67fbc00db573",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtProcessDesigner"
+      },
+      {
+        "UId": "422cc048-65aa-8f90-e8ed-7fa6d5ab06b1",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtNUI"
+      },
+      {
+        "UId": "ae8519c2-2aac-4a00-aa61-b0ffaac99ea3",
+        "PackageVersion": "7.8.0",
+        "Name": "ActionsDashboard"
+      }
+    ]
+  }
+}

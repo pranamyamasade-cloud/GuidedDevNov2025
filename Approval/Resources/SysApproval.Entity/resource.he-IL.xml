@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="he-IL">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="אישור" />
+			<Item Name="Columns.Comment.Caption" Value="הערות" />
+			<Item Name="Columns.EntityId.Caption" Value="מזהה ישות" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="שם סכימת הפנייה" />
+			<Item Name="EventsProcessSchema.Caption" Value="ויזה רגילה" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Визирование" />
+			<Item Name="Columns.EntityId.Caption" Value="Объект" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Имя схемы связанного объекта" />
+			<Item Name="EventsProcessSchema.Caption" Value="Объект" />
+		</Items>
+	</Group>
+</Resources>

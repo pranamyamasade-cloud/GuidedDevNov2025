@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Aprovação" />
+			<Item Name="Columns.Comment.Caption" Value="Comentário" />
+			<Item Name="Columns.EntityId.Caption" Value="Identificador da entidade" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Nome do esquema de referência" />
+			<Item Name="EventsProcessSchema.Caption" Value="Visto comum" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hu-HU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Jóváhagyás" />
+			<Item Name="Columns.Comment.Caption" Value="Hozzászólás" />
+			<Item Name="Columns.EntityId.Caption" Value="Entitás azonosítója" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Referenciaséma neve" />
+			<Item Name="EventsProcessSchema.Caption" Value="Közös vízum" />
+		</Items>
+	</Group>
+</Resources>

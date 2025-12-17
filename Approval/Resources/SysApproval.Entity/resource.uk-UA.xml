@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="uk-UA">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Візування" />
+			<Item Name="Columns.Comment.Caption" Value="Примітка" />
+			<Item Name="Columns.EntityId.Caption" Value="Ідентифікатор запису" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Ім'я схеми пов'язаного об'єкта" />
+			<Item Name="EventsProcessSchema.Caption" Value="Віза звичайна" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,20 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "7897c3ca-e2b0-4dc5-bbd6-fabbc4d049db"
+        },
+        {
+          "SchemaColumnUId": "a664c9a9-6373-437f-9be3-23f33a134628",
+          "Value": "Terrasoft.Configuration.SysApprovalNotificationProvider"
+        },
+        {
+          "SchemaColumnUId": "c84e4a7d-70dc-4ad9-9ac5-bd885086b5b9",
+          "Value": 0
+        }
+      ]
+    }
+  ]
+}

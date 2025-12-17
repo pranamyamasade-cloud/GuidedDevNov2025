@@ -8,6 +8,10 @@
 			<Item Name="LocalizableStrings.addRecord_cs5r3p3_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_h3tyv0f_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_nm6frqm_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_y4lzvnj_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_9z1r9yj_caption.Value" Value="Yacht add rentals" />
+			<Item Name="LocalizableStrings.Button_cii7pgp_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.CalculateAvgPrice_caption.Value" Value="Calculate Avg Price" />
 			<Item Name="LocalizableStrings.CrewCountCannotBeLess.Value" Value="Crew count cannot be less than 1." />
 			<Item Name="LocalizableStrings.EmailInput_dzibkdw_caption.Value" Value="Email address" />
 			<Item Name="LocalizableStrings.EmailInput_dzibkdw_label.Value" Value="Manager email " />
@@ -21,8 +25,10 @@
 			<Item Name="LocalizableStrings.Input_q24w8g1_label.Value" Value="Regular input" />
 			<Item Name="LocalizableStrings.MultiSelectCategory_label.Value" Value="Multi-select" />
 			<Item Name="LocalizableStrings.PassengersCountCannotBeLess.Value" Value="Passengers count cannot be less than 1." />
-			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 50 USD" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 300 EUR" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.RunCalcTicketPriceMenuItem_caption.Value" Value="Start run avg ticket price process" />
+			<Item Name="LocalizableStrings.RunMaxPriceWebServiceMenuItem_caption.Value" Value="Run calc max price web service" />
 		</Items>
 	</Group>
 </Resources>

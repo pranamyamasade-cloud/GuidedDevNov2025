@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="tr-TR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Onay" />
+			<Item Name="Columns.Comment.Caption" Value="lBaşlık" />
+			<Item Name="Columns.EntityId.Caption" Value="Varlık tanımlayıcısı" />
+			<Item Name="Columns.ReferenceSchemaName.Caption" Value="Referans şema ismi" />
+			<Item Name="EventsProcessSchema.Caption" Value="Ortak vize" />
+		</Items>
+	</Group>
+</Resources>

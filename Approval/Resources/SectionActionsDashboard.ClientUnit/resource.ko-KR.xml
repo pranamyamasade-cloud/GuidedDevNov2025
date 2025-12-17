@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Images.213c72b7-1419-4898-ac95-dbc5299c1568.Caption" Value="작업 메시지 탭 이미지" />
+			<Item Name="Images.286c8de4-5a52-46b6-86fd-6ab24ce54596.Caption" Value="텔레그램 메시지 탭 이미지" />
+			<Item Name="Images.2a8cdb68-5be6-49e0-815a-642d50e9115d.Caption" Value="호출 탭 이미지" />
+			<Item Name="Images.37e31a80-762c-d32c-b6c8-fddd11998172.Caption" Value="WhatsApp 메시지 탭 이미지" />
+			<Item Name="Images.5b2d93b0-2649-4c51-97d8-2c64afbcac72.Caption" Value="이메일 탭 이미지" />
+			<Item Name="Images.88e9098a-a48c-a3af-894f-6a5728392ab3.Caption" Value="플레이북 이미지" />
+			<Item Name="Images.9f28b901-9f14-4a63-a1c0-35ad9a48ab9a.Caption" Value="소셜 메시지 탭 이미지" />
+			<Item Name="Images.c9007d38-a06e-43cf-b64c-3d441a4b4c74.Caption" Value="전화 메시지 탭 이미지" />
+			<Item Name="Images.d433f9c9-3807-41ac-b658-8dd36cd071e7.Caption" Value="이메일 메시지 탭 이미지" />
+			<Item Name="Images.fbdfb882-dfec-e3df-7f17-a308fb4ab14c.Caption" Value="FacebookMessageTabImage" />
+			<Item Name="LocalizableStrings.EmailTitleCaption.Value" Value="Re: {0} {1}" />
+			<Item Name="LocalizableStrings.NoContactForChatMessage.Value" Value="연결된 연락처가 없습니다." />
+			<Item Name="LocalizableStrings.NoContactsForChatMessage.Value" Value="연결된 연락처가 없습니다." />
+			<Item Name="LocalizableStrings.PlaybookButtonCaption.Value" Value="각본" />
+			<Item Name="LocalizableStrings.SendToChatContactErrorMessage.Value" Value="연락처로 메시지를 보낼 수 없습니다." />
+		</Items>
+	</Group>
+</Resources>
